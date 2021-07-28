@@ -1,7 +1,7 @@
 import telebot
 import time
 
-bot = telebot.TeleBot('TOKEN')# Токен для бота
+bot = telebot.TeleBot('1887255950:AAHtWKKNNFJcYrARJENUJOnOtTyRQWHU_Ng')# Токен для бота
 print(bot.get_me())
 
 @bot.message_handler(content_types=['text'])
